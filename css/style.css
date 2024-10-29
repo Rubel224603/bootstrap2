@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,500&display=swap');
+
+
+
+h1{
+    color:red;
+}
+.space{
+    margin-bottom:-225px;
+}
+.feature{
+    background-color:azure;
+    padding:5% 10%;
+}.feature-column{
+    border:1px solid gray;
+    padding:5px;
+    border-radius:5px;
+    margin:20px 0px;
+    transition: .4s;
+}.feature-column:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 5px 6px black;
+}
+.icon-style{
+    background-color: #bb0aac;
+    color:navajowhite;
+   
+}
+.imj-top {
+    margin-top:-61px;
+}
+.from-section{
+    background: #fff2ff;
+}.details-content h4{
+    font-family: 'Open Sans', sans-serif;
+
+}.imgbox{
+    position:relative;
+}.imgbox img{
+    max-width:100%;
+    transition: 1s;
+}
+.details-box{
+    position:absolute;
+    top:10px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    background:#fff;
+    text-align: center;
+    transition: .5s;
+    transform: scale(.5);
+    visibility: hidden;
+
+}.col:hover .details-box {
+    transform: scale(1);
+    visibility: visible;
+}
+.details-box .details-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    border: 1px dotted;
+}.details-box .details-content h4{
+    position:relative;
+    
+    padding:0;
+    font-size:20px;
+    color:#262626;
+    margin-top: 48px;
+    font-family: open sans-serif;
+    font: size light 300px;
+    text-transform: uppercase;
+}.details-box .details-content h4 span{
+   font-size: 16px;
+   color:#999;
+}.details-box .details-content h4:before{
+    content:'';
+    position: absolute;
+    bottom: -5px;
+    width: 85px;
+    height: 2px;
+    background:#f00;
+    left: 49%;
+    transform: translateX(-50%);
+}.details-box .details-content ul {
+    display: flex;
+    /* position: relative; */
+    padding: 0px;
+    width: 60%;
+    margin: 30px auto 0;
+    transition: .5s;
+    opacity: 0;
+    transform: translateY(40px);
+    
+}
+.col:hover .details-box .details-content ul {
+    opacity: 1;
+    transform: translateY(0px);
+    
+
+}
+.details-box .details-content ul li{
+    list-style: none;
+    padding: 20px;
+    border: 1px rounded;
+    width: 20%;
+    text-align: center;
+}
+.details-box .details-content ul li a{
+    display: block;
+    color: #262626;
+    height: 30px;
+    
+    width: 30px;
+    padding: 3px;
+    line-height: 24px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #262626;
+}.details-box .details-content ul li a:hover{
+
+        background-color:#f00;
+}
